@@ -92,35 +92,17 @@ const movies = data =>{
 
        
     };
-    getVideo(URL_VIDEO);
     
-    function getVideo(url){
-        fetch(url).then(res => res.json()).then(data =>{
-            console.log(data)
-            pintarVideo(data);
-        });
-    };
-    
-const pintarVideo = data =>{
-let stop = data.results[1];
-data.results.every(element => {
-    if (element === stop) {
-        return false;
-    }
         const co_v = document.createElement("div");
         co_v.className = "co-video"
         co_v.innerHTML = `
         <div class="co-frame">
-                <iframe src="https://www.youtube.com/embed/${element.key}" name="insertPage"  id='frame' class="play-iframe" frameborder=0 marginwidth=0 marginheight=0 scrolling=no width=640 height=360 allowfullscreen allow="autoplay" ></iframe> 
+                <iframe src="https://www.youtube.com/embed/dv6dAXwdUeo" name="insertPage"  id='frame' class="play-iframe" frameborder=0 marginwidth=0 marginheight=0 scrolling=no width=640 height=360 allowfullscreen allow="autoplay" ></iframe> 
         </div>
         
         `
         video.appendChild(co_v);
-        console.log(element);
-        
-        return true;
-})
-}
+ 
 
     };
     });
