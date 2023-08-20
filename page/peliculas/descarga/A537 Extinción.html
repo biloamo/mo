@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <script src="../../../includes/include.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <div data-include="../../../includes/include_css.html"></div>
+    <title>Descargas</title>
+    <script src="../../js/db_link.js"></script>
+</head>
+<body style="background: rgb(55, 59, 105);">
+
+   
+    <!--poster-->
+    <div style="margin-top: 10px;" class="anuncios" id="anuncio-ba">
+        <script type="text/javascript">
+            atOptions = {
+                'key' : '931247ee0e1c231003ed8efee85fa14e',
+                'format' : 'iframe',
+                'height' : 90,
+                'width' : 728,
+                'params' : {}
+            };
+            document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://recordfunny.com/931247ee0e1c231003ed8efee85fa14e/invoke.js"></scr' + 'ipt>');
+        </script>
+    </div>
+    <div  class="co-poster" id="co-poster">
+        <div style="margin-top: 10px;  border: solid 1px #fff;padding: 10px 10px;" class="poster" id="poster"></div>
+        <div class="trailer"><h3>Tráiler</h3></div>
+        <div class="co-video" id="co-video"></div>
+    </div>
+<!--javascript-->
+    
+    <script>
+   
+
+    //poster
+    const poster = document.getElementById("poster");
+    const video = document.getElementById("co-video");
+    const video_pelicula = document.getElementById("co-video-pelicula");
+    
+    document.addEventListener('DOMContentLoaded', () => {
+    fetchData();
+    });
+    const fetchData = async () => {
+    try{
+        const res = await fetch(db);
+        const data = await res.json();
+        movies(data);
+    }catch (error) {
+        console.log(error);
+    };
+};
+const movies = data =>{
+    data.forEach(element => {
+    //poner id aqui...
+    if(element.id === "A537"){
+
+    const  API_KEY  =  'api_key=d092eba29fbb5fe6130283f8e1934752' ;
+    const  BASE_URL  =  'https://api.themoviedb.org/3' ;
+    const  API_URL  =  BASE_URL  +  '/movie/' + element.id_POST + '?' + API_KEY + '&language=es-ES';//CODIGO TMBD
+    const  IMG_URL  =  'https://image.tmdb.org/t/p/w500' ;
+    const URL_VIDEO = BASE_URL + '/movie/'+element.id_POST+'/videos?'+API_KEY
+
+    getMovie(API_URL);
+    
+    function getMovie(url){
+        fetch(url).then(res => res.json()).then(data =>{
+            console.log(data)
+            pintar(data);
+        });
+    };
+    
+    function pintar(data){
+    
+          
+        const resumen = document.createElement("div");
+      
+        resumen.innerHTML = `
+       
+                <div class="detalle-poster"><h3>${data.title}</h3></div>
+                <div class="detalle-poster"><i class="bi-star-fill"></i><i class="bi-star-half"></i><i class="bi-star"></i><p class="puntuacion"> ${data.vote_average.toFixed(1)}</p></div>
+                <div class="detalle-poster co-est-dur"><p>Tamaño de Archivo: ${element.GB_PESO}</p></div>
+                <div class="detalle-poster"><p>Servidor de Descarga: <i class="bi-cloud-arrow-down-fill"></i> ${element.SERV_DESC}</p></div>
+                <div class="detalle-poster t-sipnosis"><p>¡Aviso importante! Este contenido contiene publicidad, para descargar solo presione el botón que aparece a continuación “DESCARGAR” omita la publicidad y comience la descarga..</p></div>
+                
+                <div class="detalle-poster co-button"><a target="_blank" href="${element.posterLink.LINK_DESCARGA}"><button class="bi-cloud-arrow-down-fill"> Descargar</button></a></div>
+        `
+
+        poster.appendChild(resumen);
+
+       
+    };
+   
+        const co_v = document.createElement("div");
+        co_v.className = "co-video"
+        co_v.innerHTML = `
+        <div class="co-frame">
+                <iframe src="https://www.youtube.com/embed/${element.LINK_MOVIES.link_trailer_key}" name="insertPage"  id='frame' class="play-iframe" frameborder=0 marginwidth=0 marginheight=0 scrolling=no width=640 height=360 allowfullscreen allow="autoplay" ></iframe> 
+        </div>
+        
+        `
+        video.appendChild(co_v);
+       
+
+    };
+    });
+    };
+</script>
+<script type='text/javascript' src='//recordfunny.com/fa/73/82/fa738230373b4a8036868a36210ab0e1.js'></script>
+<script type='text/javascript' src='//recordfunny.com/08/2a/57/082a573e67f756ba9570b7c974a40a53.js'></script>
+</body>
+</html>
