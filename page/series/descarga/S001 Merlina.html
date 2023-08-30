@@ -74,6 +74,20 @@ const movies = data =>{
     claseList.innerHTML +=`
     <a class="next"  href="${link}"><button data="next" class="bi-play-circle-fill"> CAPITULO ${numerador +=1}</button></a>
     `
+//next diploy.....
+const next = document.querySelectorAll('.next button[data^="next"')
+        next.forEach(next =>{
+        next.addEventListener("click", function(){
+            const _dip = document.getElementById("cont-deploy");
+
+            if (_dip.classList.contains("deploy")) {
+                _dip.classList.remove("deploy");
+               _dip.removeAttribute("style");
+            };
+            
+            });
+            });
+
     });
 
     data.forEach(element => {
