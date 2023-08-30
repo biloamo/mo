@@ -1,42 +1,96 @@
 //next
 const web_S002 =[
 
-  "https://biloa.website/biloa/SeBR4UiJ1kyhsbS",
-  "https://biloa.website/biloa/5HKtRmQHlM7wSb2",
-  "https://biloa.website/biloa/32iyr3unqWpHGHy",
-  "https://biloa.website/biloa/7Dwd78TSVR7c9NZ",
-  "https://biloa.website/biloa/H61C0qOo78uPuon",
-  "https://biloa.website/biloa/ySnPvqi1RKFqeth",
-  "https://biloa.website/biloa/eakAfdkNPlLyn3U",
-  "https://biloa.website/biloa/WCoeiEvLLn5Bh3j",
-  "https://biloa.website/biloa/F9r56S6ZNrnzutr"
+  "https://biloa.website/biloa/SeBR4UiJ1kyhsbS",//1-1
+  "https://biloa.website/biloa/5HKtRmQHlM7wSb2",//1-2
+  "https://biloa.website/biloa/32iyr3unqWpHGHy",//1-3
+  "https://biloa.website/biloa/7Dwd78TSVR7c9NZ",//1-4
+  "https://biloa.website/biloa/H61C0qOo78uPuon",//1-5
+  "https://biloa.website/biloa/ySnPvqi1RKFqeth",//1-6
+  "https://biloa.website/biloa/eakAfdkNPlLyn3U",//1-7
+  "https://biloa.website/biloa/WCoeiEvLLn5Bh3j",//1-8
+  "https://biloa.website/biloa/F9r56S6ZNrnzutr",//1-9
+  "https://biloa.website/biloa/bX4t09JALJI9C9r",//2-1
+  "https://biloa.website/biloa/1cOXoAHv4L25x8N",//2-2
+  "https://biloa.website/biloa/i3Lu9UVGdWhJg9a",//2-3
+  "https://biloa.website/biloa/z3QaMPMWv1ULoIc",//2-4
+  "https://biloa.website/biloa/lqvnfJCxpKRlQ8J",//2-5
+  "https://biloa.website/biloa/tcyeKRe7GDzV8ba",//2-6
+  "https://biloa.website/biloa/KRGVuBxM0f8edmu",//2-7
+  "https://biloa.website/biloa/rUL1HYDDRWMzHBD",//2-8
+  "https://biloa.website/biloa/1j8i36F5SNBuOXz",//2-9
+  "https://biloa.website/biloa/yc3tJ9gOUyBydSq",//2-10
+  "https://biloa.website/biloa/zX1h97dxGd7KfiW",//3-1
+  "https://biloa.website/biloa/GiaTrimn0EbnQdU",//3-2
+  "https://biloa.website/biloa/zbrlNmBuZXloFaT",//3-3
+  "https://biloa.website/biloa/Hsq0jdznZ10Hpp4",//3-4
+  "https://biloa.website/biloa/5gDdjpycJEG5Msv",//3-5
+  "https://biloa.website/biloa/CeObJ1fjjDOWBvS",//3-6
+  "https://biloa.website/biloa/pTD7BBMTnMWPG1c",//3-7
+  "https://biloa.website/biloa/3q7Yja3WBr89oIS"//3-8
   
   ]
   const app_S002 =[
 
-  "https://mo.biloa.website/biloa/VRjgaJwzf7XdRUt",
-  "https://mo.biloa.website/biloa/gM449ybGmfAChMb",
-  "https://mo.biloa.website/biloa/JR1KXF3zYD7zJXk",
-  "https://mo.biloa.website/biloa/6dbz8a1Qibr4wSl",
-  "https://mo.biloa.website/biloa/EOl9MPHFimioUCC",
-  "https://mo.biloa.website/biloa/OblZq7sikoql7l0",
-  "https://mo.biloa.website/biloa/JMkjZl8wBoySpp5",
-  "https://mo.biloa.website/biloa/g8VFvUj9AOkZTdC",
-  "https://mo.biloa.website/biloa/6PiJ1cGphCwFwe0"
+  "https://mo.biloa.website/biloa/VRjgaJwzf7XdRUt",//1-1
+  "https://mo.biloa.website/biloa/gM449ybGmfAChMb",//1-2
+  "https://mo.biloa.website/biloa/JR1KXF3zYD7zJXk",//1-3
+  "https://mo.biloa.website/biloa/6dbz8a1Qibr4wSl",//1-4
+  "https://mo.biloa.website/biloa/EOl9MPHFimioUCC",//1-5
+  "https://mo.biloa.website/biloa/OblZq7sikoql7l0",//1-6
+  "https://mo.biloa.website/biloa/JMkjZl8wBoySpp5",//1-7
+  "https://mo.biloa.website/biloa/g8VFvUj9AOkZTdC",//1-8
+  "https://mo.biloa.website/biloa/6PiJ1cGphCwFwe0",//1-9
+  "https://mo.biloa.website/biloa/H8DWxRMhV7MbwBN",//2-1
+  "https://mo.biloa.website/biloa/Z1kQl0PbQijQtJ7",//2-2
+  "https://mo.biloa.website/biloa/sd4e3mrNzU0YUiZ",//2-3
+  "https://mo.biloa.website/biloa/P3wS6MMk4B1SsO0",//2-4
+  "https://mo.biloa.website/biloa/nhdyUP2nYbmIPzD",//2-5
+  "https://mo.biloa.website/biloa/zIjKTNjsMRB0Kfv",//2-6
+  "https://mo.biloa.website/biloa/uk8ahG0KDRYYJwk",//2-7
+  "https://mo.biloa.website/biloa/YqMmrAiXvOSRgEJ",//2-8
+  "https://mo.biloa.website/biloa/wFgRuMw4ZiwLMW4",//2-9
+  "https://mo.biloa.website/biloa/hXWABUjUMjn8qiM",//2-10
+  "https://mo.biloa.website/biloa/LZueGlFtsqbASok",//3-1
+  "https://mo.biloa.website/biloa/QDSj8DysQG9gBQI",//3-2
+  "https://mo.biloa.website/biloa/Dee5PPkOO5DRglU",//3-3
+  "https://mo.biloa.website/biloa/aFZVE24SunWBa0m",//3-4
+  "https://mo.biloa.website/biloa/7erFeg6H847qCh4",//3-5
+  "https://mo.biloa.website/biloa/BaTeBV1RnZyS4z4",//3-6
+  "https://mo.biloa.website/biloa/aUemFUPaPfXUGHp",//3-7
+  "https://mo.biloa.website/biloa/ExlFOTKsc9iYyGu"//3-8
   
 
   ]
   const des_S002 =[
 
-  "https://drive.google.com/u/0/uc?id=1kvq7HU9Ml5CSzAa6HQsN0tXz9-0JXpGK&export=download",
-  "https://drive.google.com/u/0/uc?id=1-OPl_mPSG1GhY1G6mv6eZng3KOWiedF1&export=download",
-  "https://drive.google.com/u/0/uc?id=1B_mzeNRSWR_dRnZPv72esaprD7-Jls2W&export=download",
-  "https://drive.google.com/u/0/uc?id=1AfPoIuwSDOZdrG18Ml1CAyv-Faktt8Wm&export=download",
-  "https://drive.google.com/u/0/uc?id=1ecXg8rCtpbwFkJnyl4MB-UD3pXrqsder&export=download",
-  "https://drive.google.com/u/0/uc?id=1BWLS7bX4siAfgopXX8YzfEBQWIwbdJzr&export=download",
-  "https://drive.google.com/u/0/uc?id=1yIovfwH0LOwefW0uwiOKihn_l_vTq4lk&export=download",
-  "https://drive.google.com/u/0/uc?id=1vGBWStQHRnl2WzldtepXJ7oaB4euazXn&export=download",
-  "https://drive.google.com/u/0/uc?id=1Q02Gs-mQssxwWDYFFO6XMQIYhEjYViQP&export=download"
+  "https://drive.google.com/u/0/uc?id=1kvq7HU9Ml5CSzAa6HQsN0tXz9-0JXpGK&export=download",//1-1
+  "https://drive.google.com/u/0/uc?id=1-OPl_mPSG1GhY1G6mv6eZng3KOWiedF1&export=download",//1-2
+  "https://drive.google.com/u/0/uc?id=1B_mzeNRSWR_dRnZPv72esaprD7-Jls2W&export=download",//1-3
+  "https://drive.google.com/u/0/uc?id=1AfPoIuwSDOZdrG18Ml1CAyv-Faktt8Wm&export=download",//1-4
+  "https://drive.google.com/u/0/uc?id=1ecXg8rCtpbwFkJnyl4MB-UD3pXrqsder&export=download",//1-5
+  "https://drive.google.com/u/0/uc?id=1BWLS7bX4siAfgopXX8YzfEBQWIwbdJzr&export=download",//1-6
+  "https://drive.google.com/u/0/uc?id=1yIovfwH0LOwefW0uwiOKihn_l_vTq4lk&export=download",//1-7
+  "https://drive.google.com/u/0/uc?id=1vGBWStQHRnl2WzldtepXJ7oaB4euazXn&export=download",//1-8
+  "https://drive.google.com/u/0/uc?id=1Q02Gs-mQssxwWDYFFO6XMQIYhEjYViQP&export=download",//1-9
+  "https://drive.google.com/u/0/uc?id=1ppF1K9IbK5YHuiXPmhxr3W4CS9R6JrtM&export=download",//2-1
+  "https://drive.google.com/u/0/uc?id=1Tly7VWksgInTBHqoP5bbQ7mIj5KulnAa&export=download",//2-2
+  "https://drive.google.com/u/0/uc?id=1_i1A09F5vg-zbOwHNNZNMsLLzKpDyJz9&export=download",//2-3
+  "https://drive.google.com/u/0/uc?id=1lcV1CsoizEHrsHXus3Ki38Jbv7mznr-N&export=download",//2-4
+  "https://drive.google.com/u/0/uc?id=1xHmqkOQKNjhcCll3tcUtdlHw1JOSaIYb&export=download",//2-5
+  "https://drive.google.com/u/0/uc?id=1tJ4_KBRYjmchUV0jzV5kmzaFdgNI7FYq&export=download",//2-6
+  "https://drive.google.com/u/0/uc?id=1qy6MeWlvrOpBo-qThQ163da-OxmriOqU&export=download",//2-7
+  "https://drive.google.com/u/0/uc?id=1FBI7b_rT3hYvT4-nWQOhfkDrE68pagwt&export=download",//2-8
+  "https://drive.google.com/u/0/uc?id=1khvadrIAPZpf_tTf3I_kQv0QwGzCyhKC&export=download",//2-9
+  "https://drive.google.com/u/0/uc?id=1U1ak3dwI7XM1GhCghEDIVdjqqvum6Iuc&export=download",//2-10
+  "https://drive.google.com/u/0/uc?id=1R4iK8I-e548JAwmlkNOfS2LFnXpu34uu&export=download",//3-1
+  "https://drive.google.com/u/0/uc?id=1zW1-s6SZELC1LTF0GJN3obBh9NuOP8yd&export=download",//3-2
+  "https://drive.google.com/u/0/uc?id=1PT3oUSY5vIyjp3JibUITNDPsBnT2KHPN&export=download",//3-3
+  "https://drive.google.com/u/0/uc?id=15wMMd0JCkWy6xSmIJGNf8GgNXYM5x8Ka&export=download",//3-4
+  "https://drive.google.com/u/0/uc?id=15UAFc5KWHyrLatkc8UY5d9TbmSce1Cq8&export=download",//3-5
+  "https://drive.google.com/u/0/uc?id=1NOKq38HONCipt_yxtSoQnkIHa128i2Ir&export=download",//3-6
+  "https://drive.google.com/u/0/uc?id=1_jSgbXg8reQIX2RWrt73kHWGexHJDOMW&export=download",//3-7
+  "https://drive.google.com/u/0/uc?id=1bO7dGxO1gqcJgW0MHJSAMpO5bD08gF-e&export=download"//3-8
  
     
 ]
