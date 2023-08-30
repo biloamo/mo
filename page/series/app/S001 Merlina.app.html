@@ -152,7 +152,26 @@ const movies = data =>{
     claseList.innerHTML +=`
     <a class="next" target="insertPage" href="${link}"><button data="next" class="bi-play-circle-fill"> CAPITULO ${numerador +=1}</button></a>
     `
+    //next diploy.....
+    const next = document.querySelectorAll('.next button[data^="next"')
+        next.forEach(next =>{
+        next.addEventListener("click", function(){
+            const _dip = document.getElementById("cont-deploy");
+
+            if (_dip.classList.contains("deploy")) {
+                _dip.classList.remove("deploy");
+               _dip.removeAttribute("style");
+            };
+            
+            });
+            });
+
+
     });
+
+
+    
+
 
     data.forEach(element => {
     //poner id aqui...
@@ -236,18 +255,7 @@ const movies = data =>{
         poster.appendChild(_1div);
         poster.appendChild(_2div);
        
-        const next = document.querySelectorAll('.next button[data^="next"')
-        next.forEach(next =>{
-        next.addEventListener("click", function(){
-            const _dip = document.querySelector(".cont-deploy");
-
-            if (_dip.classList.contains("deploy")) {
-                _dip.classList.remove("deploy");
-               _dip.removeAttribute("style");
-            };
-            
-            });
-            });
+        
         
         
         //funcion menu deploy
