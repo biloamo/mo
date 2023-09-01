@@ -150,7 +150,7 @@ const movies = data =>{
     app_S001.forEach(function(link) {
     console.log(link)
     claseList.innerHTML +=`
-    <a class="next" target="insertPage" href="${link}"><button data="next" class="bi-play-circle-fill"> CAPITULO ${numerador +=1}</button></a>
+    <a class="next" href="${link}"><button data="next" class="bi-play-circle-fill"> CAPITULO ${numerador +=1}</button></a>
     `
     //next diploy.....
     const next = document.querySelectorAll('.next button[data^="next"')
