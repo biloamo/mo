@@ -1,4 +1,42 @@
 //next
+const web_S005 =[
+
+  "https://biloa.website/biloa/C62aiYnmA0fdQ7Z",//1-1
+  "https://biloa.website/biloa/KyUWdm9leljL8FH",//1-2
+  "https://biloa.website/biloa/TKDRc9ZgRaZRHEb",//1-3
+  "https://biloa.website/biloa/PKxKCXO7qZU3tys",//1-4
+  "https://biloa.website/biloa/pNmhXFhYNv10o6y",//1-5
+  "https://biloa.website/biloa/LWjhPe3cHgO6E1o",//1-6
+  "https://biloa.website/biloa/LHbHaERj04Gg1Ny",//1-7
+  "https://biloa.website/biloa/v1qKqAH2uqxwY8u"//1-8
+    
+  ]
+  const app_S005 =[
+
+  "https://mo.biloa.website/biloa/wxz5dlgxf40UQYY",//1-1
+  "https://mo.biloa.website/biloa/gL6na81qCiEXqki",//1-2
+  "https://mo.biloa.website/biloa/Thtrgp20TyUi87h",//1-3
+  "https://mo.biloa.website/biloa/N2niM5dFlFA4sFY",//1-4
+  "https://mo.biloa.website/biloa/yRAOWl9ILswSJOW",//1-5
+  "https://mo.biloa.website/biloa/toZQtcXbZN90bLL",//1-6
+  "https://mo.biloa.website/biloa/V9uKW4SbYsbAIwH",//1-7
+  "https://mo.biloa.website/biloa/CyLvQ6TMVA6fd3a"//1-8
+  
+
+  ]
+  const des_S005 =[
+
+  "https://drive.google.com/u/0/uc?id=1RtAwBnRxQSSdjjMrsSKVhBFmEVCVF8fQ&export=download",//1-1
+  "https://drive.google.com/u/0/uc?id=1M6zz470z5mBc6VJ-TQTXQllxNTAi6Xqe&export=download",//1-2
+  "https://drive.google.com/u/0/uc?id=1i8Ef5YyaYdJNrOaDn0nS6JdXNDy7z28I&export=download",//1-3
+  "https://drive.google.com/u/0/uc?id=1thfo_YMFun2oV4Zc5F7lb9rOU2KeoZeE&export=download",//1-4
+  "https://drive.google.com/u/0/uc?id=17MumzuGgbWpVJxRtFuQrwqz0uAS44nl8&export=download",//1-5
+  "https://drive.google.com/u/0/uc?id=1vEpYv7xxXW6-snkrJ_S0C7BDxSYE3zJ2&export=download",//1-6
+  "https://drive.google.com/u/0/uc?id=1o7BXLgWFTGY2Q8O1OGo_lBLZgaOKu-o5&export=download",//1-7
+  "https://drive.google.com/u/0/uc?id=1KHjLX9TNfxHUR4_NerxRWvmfAfle51LE&export=download"//1-8
+  
+]
+//next
 const web_S004 =[
 
   "https://biloa.website/biloa/qV58J1EuhJuMbN3",//1-1
