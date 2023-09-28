@@ -1,4 +1,48 @@
 //next
+const web_S006 =[
+
+  "https://biloa.website/biloa/Rc32V09RPSHG9jt",//1-1
+  "https://biloa.website/biloa/0Zqj8ZVI5zvt3pT",//1-2
+  "https://biloa.website/biloa/ogCA1b5gJkSiKaj",//1-3
+  "https://biloa.website/biloa/uoa8Px5F1bTngBZ",//1-4
+  "https://biloa.website/biloa/jWgalMl7AUSM8Ya",//1-5
+  "https://biloa.website/biloa/3K1qrO74NDVlv4N",//1-6
+  "https://biloa.website/biloa/iGofxgpnPq0EJKW",//1-7
+  "https://biloa.website/biloa/XvTCtuJ9LkETV4W",//1-8
+  "https://biloa.website/biloa/8krisDVq4fbXLJY",//1-9
+  "https://biloa.website/biloa/u2Pb8y3PAVxwkfS"//1-10
+    
+  ]
+  const app_S006 =[
+
+  "https://mo.biloa.website/biloa/Exub5PIR1FwYOOO",//1-1
+  "https://mo.biloa.website/biloa/yKLIzJ78fSGxK0K",//1-2
+  "https://mo.biloa.website/biloa/G8IaOujEyLKmgKU",//1-3
+  "https://mo.biloa.website/biloa/m77WN4yFXL5zh7F",//1-4
+  "https://mo.biloa.website/biloa/O78vjYJfFpBh4o7",//1-5
+  "https://mo.biloa.website/biloa/eXXGGuQ48K3RslM",//1-6
+  "https://mo.biloa.website/biloa/n1JgtQ5R81kF74E",//1-7
+  "https://mo.biloa.website/biloa/k4VtR08Bu3lko6G",//1-8
+  "https://mo.biloa.website/biloa/0wcpMWN0IsqR21v",//1-9
+  "https://mo.biloa.website/biloa/bzto093Wd286VN9"//1-10
+  
+
+  ]
+  const des_S006 =[
+
+  "https://drive.google.com/u/2/uc?id=1JZ_KGPpEGdwwOFHCipP3V6TtOrVXab-e&export=download",//1-1
+  "https://drive.google.com/u/2/uc?id=1UY8F-_tSWrh2MPLcDtirsi7A85KFW1IN&export=download",//1-2
+  "https://drive.google.com/u/2/uc?id=1uV28sfkdmJitD94Nh6HG7aSNRZqcIfjp&export=download",//1-3
+  "https://drive.google.com/u/2/uc?id=1Q5HlRHV5ZT_fg1M5BpC8JMrV9Qh8Ven_&export=download",//1-4
+  "https://drive.google.com/u/2/uc?id=1x65kDM_u15hERZJFK8KKEeG5Lz1lz0Rn&export=download",//1-5
+  "https://drive.google.com/u/2/uc?id=1GnMy5yVCk8BgM47wisdJEOABP8ub-Z1m&export=download",//1-6
+  "https://drive.google.com/u/2/uc?id=1otPC6Vyd0dYEiJfE1mrjDYHN5siBB_aS&export=download",//1-7
+  "https://drive.google.com/u/2/uc?id=1m3JhznIjtTkff4Z4sE6Ha6n4ikl0YjdL&export=download",//1-8
+  "https://drive.google.com/u/2/uc?id=1C2tmcmb71FoDIwX4K5aXW2in2rcHxzzE&export=download",//1-9
+  "https://drive.google.com/u/2/uc?id=1LE8pQloAXIt2FeQax0wKT_j5Zd-gXONB&export=download"//1-10
+  
+]
+//next
 const web_S005 =[
 
   "https://biloa.website/biloa/C62aiYnmA0fdQ7Z",//1-1
